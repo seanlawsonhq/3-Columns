@@ -1,0 +1,167 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+/* =============================================== */
+:root {
+  /* ========= PRIMARY========== */
+  --Brightorange: hsl(31, 77%, 52%);
+  --Darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+
+  /*========== NEUTRAL=========== */
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Verylight-gray: hsl(0, 0%, 95%);
+}
+
+/* ========================BODY====================== */
+body {
+  background-color: var(--Verylight-gray);
+}
+
+/* ==============MAIN CON============== */
+
+.main_con {
+  display: flex;
+  max-width: 900px;
+  /* justify-content: center; */
+  margin: 150px auto;
+  /* margin-top: 150px; */
+  /* border-radius: 10px; */
+  font-weight: 400;
+}
+
+/* ==============CARD 1================ */
+
+.card_one {
+  background-color: var(--Brightorange);
+  padding: 20px 40px;
+  /* width: 700px; */
+  border-radius: 10px 0 0 10px;
+}
+
+img {
+  margin-top: 20px;
+}
+.card_one h2 {
+  color: var(--Verylight-gray);
+  font-family: "Big Shoulders Display", sans-serif;
+  margin-top: 20px;
+}
+
+.card_one p {
+  color: var(--Transparent-white);
+  margin-top: 20px;
+}
+
+.sed_button {
+  background-color: var(--Verylight-gray);
+  color: var(--Brightorange);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.sed_button:hover {
+  background-color: var(--Verylight-gray);
+  color: var(--Verylight-gray);
+  border: 1px solid var(--Verylight-gray);
+  background: transparent;
+}
+
+@media (max-width: 500px) {
+  .main_con {
+    flex-direction: column;
+    /* border-radius: 0; */
+    margin: 50px auto;
+    max-width: 330px;
+  }
+}
+
+/* ---============MEDIA QUERY=========== */
+
+/* =============CARD 2================= */
+
+.card_two {
+  background-color: var(--Darkcyan);
+  padding: 20px 40px;
+  /* width: 700px; */
+}
+.card_two h2 {
+  color: var(--Verylight-gray);
+  font-family: "Big Shoulders Display", sans-serif;
+  margin-top: 20px;
+}
+.card_two p {
+  color: var(--Transparent-white);
+  margin-top: 20px;
+}
+
+.suv_button {
+  background-color: var(--Verylight-gray);
+  color: var(--Verydarkcyan);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.suv_button:hover {
+  background-color: var(--Verylight-gray);
+  color: var(--Verylight-gray);
+  border: 1px solid var(--Verylight-gray);
+  background: transparent;
+}
+
+/* ============= CARD 3================ */
+
+.card_three {
+  background-color: var(--Verydarkcyan);
+  padding: 20px 40px;
+  /* width: 700px; */
+  border-radius: 0 10px 10px 0;
+}
+
+.card_three h2 {
+  color: var(--Verylight-gray);
+  font-family: "Big Shoulders Display", sans-serif;
+  margin-top: 20px;
+}
+
+.card_three p {
+  color: var(--Transparent-white);
+  margin-top: 20px;
+}
+
+.lux_button {
+  background-color: hsl(hue, saturation, lightness);
+  color: var(--Verydarkcyan);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.lux_button:hover {
+  background-color: var(--Verylight-gray);
+  color: var(--Verylight-gray);
+  border: 1px solid var(--Verylight-gray);
+  background: transparent;
+}
